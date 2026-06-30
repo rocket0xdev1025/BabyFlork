@@ -20458,9 +20458,14 @@ function CE() {
               R.jsxs("div", {
                 className: "flex items-center gap-3",
                 children: [
-                  R.jsx(Jn, {
-                    className: "hidden text-xl md:block",
-                    children: "Buy $BABYFLORK",
+                  R.jsx("a", {
+                    href: "https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon",
+                    children: [
+                      R.jsx(Jn, {
+                        className: "hidden text-xl md:block",
+                        children: "Buy $BABYFLORK",
+                      }),
+                    ]
                   }),
                   R.jsx("button", {
                     className:
@@ -20663,7 +20668,7 @@ function CE() {
                   className:
                     "mb-16 text-center text-4xl font-bold md:text-6xl text-white",
                   whileInView: { scale: [0.8, 1.2, 1], rotate: [0, 5, -2, 0] },
-                  children: "NEW BERCH ALERCH!!!!!",
+                  children: "BABY FLORK ALERCH!!!!!",
                 }),
                 R.jsxs("div", {
                   className: "grid items-center gap-12 md:grid-cols-2",
@@ -20729,10 +20734,15 @@ function CE() {
                 R.jsxs("div", {
                   className: "mt-20 text-center",
                   children: [
-                    R.jsx(Jn, {
-                      crazyHover: !0,
-                      className: "text-4xl px-12 py-6 border-8 border-yellow",
-                      children: "BUY THE BUG (Baby Flork MUG)",
+                    R.jsx("a", {
+                      href: "https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon",
+                      children: [
+                        R.jsx(Jn, {
+                          crazyHover: !0,
+                          className: "text-4xl px-12 py-6 border-8 border-yellow",
+                          children: "BUY $BABYFLORK",
+                        }),
+                      ]
                     }),
                   ],
                 }),
@@ -20840,7 +20850,7 @@ function CE() {
                     {
                       label: "Liquidity",
                       value: "100%",
-                      sub: "Burned forever 🔥",
+                      sub: "Locked 🔒",
                       color: "bg-red-300",
                     },
                     {
