@@ -21197,7 +21197,6 @@ function CE() {
       R.jsxs("footer", {
         className: "border-t-8 border-yellow p-12 text-center",
         children: [
-          R.jsx(pc, { className: "mx-auto h-20 w-20 mb-6" }),
           R.jsxs("div", {
             className: "mb-6 flex justify-center gap-6",
             children: [
