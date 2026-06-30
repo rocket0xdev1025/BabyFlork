@@ -20394,7 +20394,7 @@ function pc({ className: i = "" }) {
     ],
   });
 }
-const l0 = "0xcomingsoon",
+const l0 = "0x79bAe69A90E112fe9ded209A118381f448826172",
   s0 = [
     { label: "Home", href: "#home" },
     { label: "Tokenomics", href: "#tokenomics" },
@@ -20977,7 +20977,7 @@ function CE() {
                   ),
                 }),
                 R.jsx("a",{
-                  href: "https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon",
+                  href: "https://pancakeswap.finance/swap?outputCurrency=0x79bAe69A90E112fe9ded209A118381f448826172",
                   children: [
                     R.jsx("div", {
                       className: "mt-12 text-center",
